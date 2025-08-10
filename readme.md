@@ -201,7 +201,7 @@ npx tailwindcss init -p
 ## 🎯 Key Implementation Details
 
 - **Socket.IO** for reliable WebSocket communication
-- **React Query** prevents redundant API calls and provides caching
+- **Tanstack React Query** prevents redundant API calls and provides caching
 - **Tailwind CSS** for responsive, modern styling
 - **Automatic scrolling** to latest messages
 - **Color-coded avatars** for different users
@@ -225,12 +225,6 @@ npm start
 
 Both servers support hot reloading for development changes.
 
-## 📊 Performance Metrics
-
-- ⚡ Initial page load: < 2 seconds
-- ⚡ Message delivery: < 100ms
-- ⚡ WebSocket connection: < 500ms
-- ⚡ Typing indicator response: < 50ms
 
 ## 📝 Sample Data Structure
 
@@ -244,22 +238,9 @@ Both servers support hot reloading for development changes.
 ]
 ```
 
-## 🎉 Success Criteria Met ✅
-
-- ✅ **Real-time messaging**: Messages sync instantly across clients
-- ✅ **Typing indicators**: Animated "user is typing..." with auto-timeout
-- ✅ **REST API**: `GET /api/messages` returns last 5 messages
-- ✅ **WebSocket integration**: Live bidirectional communication
-- ✅ **React Query**: Efficient API calls with caching
-- ✅ **Modern styling**: Responsive Tailwind CSS design
-- ✅ **Simulated behavior**: Auto-generated messages and typing events
-- ✅ **Multi-client support**: Works across browser tabs/windows
-- ✅ **Error handling**: Graceful connection management
-- ✅ **Performance**: Sub-second response times
-
 ## 📋 Final Checklist
 
-Before submitting, verify:
+Verify:
 
 - [ ] Backend runs on `http://localhost:5000`
 - [ ] Frontend runs on `http://localhost:3000`
